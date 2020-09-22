@@ -67,6 +67,16 @@
             android:textColor="#1E88E5"
             android:textSize="36sp" />
 
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jumpCounter2"
+            android:tag="3"
+            android:text="counter2"
+            android:textColor="#1E88E5"
+            android:textSize="36sp" />
+
     </LinearLayout>
 
 </LinearLayout>

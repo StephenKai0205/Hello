@@ -32,4 +32,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void jumpCounter2(View v){
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this,counter2.class);
+        startActivity(intent);
+
+    }
 }
