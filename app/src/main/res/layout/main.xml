@@ -72,7 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="jumpCounter2"
-            android:tag="3"
+            android:tag="4"
             android:text="counter2"
             android:textColor="#1E88E5"
             android:textSize="36sp" />

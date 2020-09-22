@@ -12,7 +12,7 @@ public class counter2 extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.score);
+        setContentView(R.layout.score2);
 
     }
 

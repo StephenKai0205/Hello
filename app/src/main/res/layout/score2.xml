@@ -260,7 +260,7 @@
             android:layout_marginBottom="24dp"
             android:background="#FFB300"
             android:gravity="center"
-            android:onClick="reset"
+            android:onClick="Reset"
             android:text="reset"
             android:textColor="#3949AB" />
 
