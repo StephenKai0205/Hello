@@ -19,6 +19,7 @@
         <activity android:name=".temperature" />
         <activity android:name=".counter" />
         <activity android:name=".calculater" />
+        <activity android:name=".counter2" />
     </application>
 
 </manifest>
