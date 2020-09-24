@@ -7,13 +7,13 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class temperature extends AppCompatActivity {
+public class dollar extends AppCompatActivity {
     TextView out;
     EditText edit;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.temperature);
+        setContentView(R.layout.dollar);
         TextView tv = findViewById(R.id.textView4);
         tv.setText("Hello android");
         EditText input = findViewById(R.id.EditTextTextPersonName2);
@@ -21,14 +21,30 @@ public class temperature extends AppCompatActivity {
         out = (TextView) findViewById(R.id.textView5);
         edit = (EditText) findViewById(R.id.EditTextTextPersonName2);
     }
-    public void btn(View v){
+    public void dollarrate(View v){
         String str = edit.getText().toString();
         Double d = Double.parseDouble(str);
         d=d*1.8+32;
         out.setText("结果为："+ d);
 
     }
+    public void eurorate(View v){
+        String str = edit.getText().toString();
+        Double d = Double.parseDouble(str);
+        d=d*1.8+32;
+        out.setText("结果为："+ d);
 
+    }
+    public void wonrate(View v){
+        String str = edit.getText().toString();
+        Double d = Double.parseDouble(str);
+        d=d*1.8+32;
+        out.setText("结果为："+ d);
 
+    }
+    public void Reset(View v){
+        TextView money =(TextView)findViewById(R.id.textView5);
+        money.setText("0");
+    }
 
 }

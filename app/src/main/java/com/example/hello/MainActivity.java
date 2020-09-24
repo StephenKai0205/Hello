@@ -38,4 +38,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void jumpdollar(View v){
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this,dollar.class);
+        startActivity(intent);
+
+    }
 }

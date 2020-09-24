@@ -41,7 +41,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="jumpCalculater"
-            android:tag="1"
             android:text="calculator"
             android:textColor="#1E88E5"
             android:textSize="36sp" />
@@ -51,7 +50,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="jumpTemperature"
-            android:tag="2"
             android:text="temperature"
             android:textAllCaps="true"
             android:textColor="#1E88E5"
@@ -62,7 +60,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="jumpCounter"
-            android:tag="3"
             android:text="counter"
             android:textColor="#1E88E5"
             android:textSize="36sp" />
@@ -72,8 +69,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="jumpCounter2"
-            android:tag="4"
             android:text="counter2"
+            android:textColor="#1E88E5"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jumpdollar"
+            android:text="dollar"
             android:textColor="#1E88E5"
             android:textSize="36sp" />
 

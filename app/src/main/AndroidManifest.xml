@@ -20,6 +20,7 @@
         <activity android:name=".counter" />
         <activity android:name=".calculater" />
         <activity android:name=".counter2" />
+        <activity android:name=".dollar" />
     </application>
 
 </manifest>
