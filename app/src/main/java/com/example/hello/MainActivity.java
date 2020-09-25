@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,31 +15,31 @@ public class MainActivity extends AppCompatActivity {
     }
     public void jumpTemperature(View v){
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this,temperature.class);
+        intent.setClass(MainActivity.this, Temperature.class);
         startActivity(intent);
 
     }
     public void jumpCounter(View v){
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this,counter.class);
+        intent.setClass(MainActivity.this, Counter.class);
         startActivity(intent);
 
     }
     public void jumpCalculater(View v){
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this,calculater.class);
+        intent.setClass(MainActivity.this, Calculater.class);
         startActivity(intent);
 
     }
     public void jumpCounter2(View v){
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this,counter2.class);
+        intent.setClass(MainActivity.this, Counter2.class);
         startActivity(intent);
 
     }
     public void jumpdollar(View v){
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this,dollar.class);
+        intent.setClass(MainActivity.this, Dollar.class);
         startActivity(intent);
 
     }

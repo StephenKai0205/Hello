@@ -16,11 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".temperature" />
-        <activity android:name=".counter" />
-        <activity android:name=".calculater" />
-        <activity android:name=".counter2" />
-        <activity android:name=".dollar" />
+        <activity android:name=".Temperature" />
+        <activity android:name=".Counter" />
+        <activity android:name=".Calculater" />
+        <activity android:name=".Counter2" />
+        <activity android:name=".Dollar" />
     </application>
 
 </manifest>

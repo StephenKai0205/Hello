@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class counter2 extends AppCompatActivity {
+public class Counter2 extends AppCompatActivity {
 
 
     @Override
