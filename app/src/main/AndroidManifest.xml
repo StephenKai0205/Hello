@@ -21,6 +21,7 @@
         <activity android:name=".Calculater" />
         <activity android:name=".Counter2" />
         <activity android:name=".Dollar" />
+        <activity android:name=".Setrate" />
     </application>
 
 </manifest>

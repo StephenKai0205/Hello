@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".Setrate">
 
     <LinearLayout
@@ -17,6 +18,7 @@
         android:layout_marginRight="1dp"
         android:layout_marginBottom="1dp"
         android:orientation="vertical"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,6 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="89dp"
             android:ems="10"
+            android:gravity="center"
             android:inputType="textPersonName"
             android:text="dollar rate" />
 
@@ -44,6 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="89dp"
             android:ems="10"
+            android:gravity="center"
             android:inputType="textPersonName"
             android:text="euro rate" />
 
@@ -52,6 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="89dp"
             android:ems="10"
+            android:gravity="center"
             android:inputType="textPersonName"
             android:text="won rate" />
 
@@ -60,6 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="73dp"
             android:background="#FB8C00"
+            android:onClick="getrate"
             android:text="confirm" />
 
     </LinearLayout>
