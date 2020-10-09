@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Exchangerate"></activity>
+        <activity android:name=".Exchangerate2"></activity>
+        <activity android:name=".Exchangerate" />
         <activity android:name=".list">
             <intent-filter>
                 <action
@@ -35,6 +36,7 @@
         <activity android:name=".Counter2" />
         <activity android:name=".Dollar" />
         <activity android:name=".Setrate" />
+
     </application>
 
 </manifest>

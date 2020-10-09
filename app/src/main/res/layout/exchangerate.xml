@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exchangerate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0FFFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/exchange_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FDD835"
+            android:gravity="center"
+            android:text="Hello"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/inputRMB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/inp1"
+            android:inputType="textPersonName"
+            android:text=""
+
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/dollar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FB8C00"
+            android:onClick="exchangeRate"
+            android:text="dollar"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/euro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FB8C00"
+            android:onClick="exchangeRate"
+            android:text="euro"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/won"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FB8C00"
+            android:onClick="exchangeRate"
+            android:text="won"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/config"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="100dp"
+            android:background="#FB8C00"
+            android:onClick="jumpExchangerate2"
+            android:text="config"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="结果为："
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

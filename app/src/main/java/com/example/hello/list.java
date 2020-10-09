@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class list<handler> extends ListActivity implements Runnable{
-    private static final String TAG = "conversion";
+    private static final String TAG = "abc";
 
     int length = 3;
     public List<String> getRate2(){
