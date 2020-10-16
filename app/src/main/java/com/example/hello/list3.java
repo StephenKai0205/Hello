@@ -22,9 +22,10 @@ public class list3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mylist3);
 
-        textView1 = findViewById(R.id.rate_name);
-        textView2 = findViewById(R.id.rate_out);
-        editText = findViewById(R.id.rate_in);
+        textView1 = findViewById(R.id.currency);
+        editText = findViewById(R.id.input);
+        textView2 = findViewById(R.id.output);
+
 
         SharedPreferences sharedPreferences = getSharedPreferences("currency", Activity.MODE_PRIVATE);
         name = sharedPreferences.getString("currency","");
