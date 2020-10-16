@@ -38,7 +38,6 @@ public class Exchangerate2 extends AppCompatActivity {
         won.setText(Double.toString(won2));
     }
 
-    //    点击SAVE保存到Bundle并带回数据到调用的页面（2020/9/28新增功能：将信息存储到SharePreferences）
     public void transportData(View view){
         Intent intent = getIntent();
         Bundle bdl = new Bundle();

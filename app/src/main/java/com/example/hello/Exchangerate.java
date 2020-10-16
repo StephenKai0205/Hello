@@ -353,11 +353,11 @@ public class Exchangerate extends AppCompatActivity implements Runnable{
             won_rate = sharedPreferences.getFloat("key_won2",0.0f);
 //            //清除当前文件中数据
 //            sharedPreferences.edit().clear().commit();
-
-            Log.i(TAG, "onActivityResult: dollar_rate2=" + dollar_rate);
             Log.i(TAG, "onActivityResult: euro_rate2=" + euro_rate);
             Log.i(TAG, "onActivityResult: won_rate2=" + won_rate);
         }
         super.onActivityResult(requestCode, resultCode, data);
+
+            Log.i(TAG, "onActivityResult: dollar_rate2=" + dollar_rate);
     }
 }

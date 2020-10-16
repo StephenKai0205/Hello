@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Exchangerate2"></activity>
+        <activity android:name=".list3"></activity>
+        <activity android:name=".getRate" />
+        <activity android:name=".Exchangerate2" />
         <activity android:name=".Exchangerate" />
         <activity android:name=".list">
             <intent-filter>
@@ -23,6 +25,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+    <activity android:name=".list2">
+        <intent-filter>
+            <action
+                android:name="android.intent.action.MAIN"
+                android:exported="true" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

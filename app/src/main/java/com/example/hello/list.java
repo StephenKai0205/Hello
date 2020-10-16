@@ -32,8 +32,8 @@ public class list<handler> extends ListActivity implements Runnable{
             doc = (Document) Jsoup.connect(url).get();
             Log.i(TAG, "getRate2: "+doc.title());
             Elements tables = doc.getElementsByTag("table");
-            Element table = tables.get(0);//因为本网页只有一个table，等价于.first()
-            Elements tds = table.getElementsByTag("td");//从table中找<td>，即列
+            Element table = tables.get(0);
+            Elements tds = table.getElementsByTag("td");//寻找<td>，即列
             for (int i = 0;i < tds.size();i+=6){
                 Element td1 = tds.get(i);
                 Element td2 = tds.get(i+5);
@@ -47,6 +47,8 @@ public class list<handler> extends ListActivity implements Runnable{
         }
         return list;
     }
+
+
 
     Handler handler;
     @Override
