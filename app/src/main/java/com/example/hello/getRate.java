@@ -21,9 +21,11 @@ public class getRate extends AppCompatActivity implements Runnable{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_get_rate);
+    //    setContentView(R.layout.activity_get_rate);
         Thread t =new Thread();
         t.start();
+
+
     }
 
     @Override

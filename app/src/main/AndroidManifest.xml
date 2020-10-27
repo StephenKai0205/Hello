@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.hello">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,11 +13,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".list3"></activity>
+
+
+
+        <activity android:name=".FrameActivity">
+        <intent-filter>
+            <action
+                android:name="android.intent.action.MAIN"
+                android:exported="true" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".list3" />
         <activity android:name=".getRate" />
         <activity android:name=".Exchangerate2" />
         <activity android:name=".Exchangerate" />
-
         <activity android:name=".list">
             <intent-filter>
                 <action
@@ -26,16 +38,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".list2">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:exported="true" />
 
-    <activity android:name=".list2">
-        <intent-filter>
-            <action
-                android:name="android.intent.action.MAIN"
-                android:exported="true" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".list4">
             <intent-filter>
                 <action
@@ -45,7 +56,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -59,7 +69,6 @@
         <activity android:name=".Counter2" />
         <activity android:name=".Dollar" />
         <activity android:name=".Setrate" />
-
     </application>
 
 </manifest>
